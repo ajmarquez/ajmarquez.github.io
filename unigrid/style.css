@@ -4,7 +4,7 @@
 .glass-name{isolation:isolate;overflow:visible}
 .glass-line{display:block;position:relative;width:max-content;color:#f5cd54;mix-blend-mode:screen}
 .glass-line::before,.glass-line::after{content:attr(data-text);position:absolute;inset:0;pointer-events:none;mix-blend-mode:screen}
-.glass-line::before{color:#22bce9;transform:translate(-.075em,.035em)}
-.glass-line::after{color:#eb439f;transform:translate(.075em,-.035em)}
+.glass-line::before{color:#22bce9;transform:translate(-.012em,.006em)}
+.glass-line::after{color:#eb439f;transform:translate(.012em,-.006em)}
 @media(forced-colors:active){.glass-line{color:CanvasText;mix-blend-mode:normal}.glass-line::before,.glass-line::after{display:none}}
 @media print{.glass-line{color:#fff;mix-blend-mode:normal}.glass-line::before,.glass-line::after{display:none}}
